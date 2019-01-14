@@ -1,0 +1,352 @@
+﻿>> mkoctfile -g -v -O -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.ProjectsIn file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:o/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.c /home/maurizio/Dropbox/Ongoing.Proj/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:25:0: warning: "TWOPI" redefined [enabled by default]box/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfie #define TWOPI 8.*atan(1.)utput ei_modelA -lm -lgsl -lgslcblas
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:23:0: note: this is the location of the previous definition
+ #define TWOPI (8.*atan(1.))
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:26:0: warning: "a1" redefined [enabled by default]
+ #define a1  -1.26551223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:24:0: note: this is the location of the previous definition
+ #define a1  -1.26551223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:27:0: warning: "a2" redefined [enabled by default]
+ #define a2   1.00002368
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:25:0: note: this is the location of the previous definition
+ #define a2  1.00002368e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:28:0: warning: "a3" redefined [enabled by default]
+ #define a3    .37409196
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:26:0: note: this is the location of the previous definition
+ #define a3  .37409196e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:29:0: warning: "a4" redefined [enabled by default]
+ #define a4    .09678418
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:27:0: note: this is the location of the previous definition
+ #define a4  .09678418e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:30:0: warning: "a5" redefined [enabled by default]
+ #define a5   -.18628806
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:28:0: note: this is the location of the previous definition
+ #define a5  -.18628806e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:31:0: warning: "a6" redefined [enabled by default]
+ #define a6    .27886087
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:29:0: note: this is the location of the previous definition
+ #define a6  .27886087e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:32:0: warning: "a7" redefined [enabled by default]
+ #define a7  -1.13520398
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:30:0: note: this is the location of the previous definition
+ #define a7  -1.13520398e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:33:0: warning: "a8" redefined [enabled by default]
+ #define a8   1.48851587
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:31:0: note: this is the location of the previous definition
+ #define a8 1.48851587e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:34:0: warning: "a9" redefined [enabled by default]
+ #define a9   -.82215223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:32:0: note: this is the location of the previous definition
+ #define a9 -.82215223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:0:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:35:0: warning: "a10" redefined [enabled by default]
+ #define a10   .17087277
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:21:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c:16:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:33:0: note: this is the location of the previous definition
+ #define a10 .17087277e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:25:0: warning: "TWOPI" redefined [enabled by default]
+ #define TWOPI 8.*atan(1.)
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:23:0: note: this is the location of the previous definition
+ #define TWOPI (8.*atan(1.))
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:26:0: warning: "a1" redefined [enabled by default]
+ #define a1  -1.26551223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:24:0: note: this is the location of the previous definition
+ #define a1  -1.26551223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:27:0: warning: "a2" redefined [enabled by default]
+ #define a2   1.00002368
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:25:0: note: this is the location of the previous definition
+ #define a2  1.00002368e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:28:0: warning: "a3" redefined [enabled by default]
+ #define a3    .37409196
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:26:0: note: this is the location of the previous definition
+ #define a3  .37409196e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:29:0: warning: "a4" redefined [enabled by default]
+ #define a4    .09678418
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:27:0: note: this is the location of the previous definition
+ #define a4  .09678418e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:30:0: warning: "a5" redefined [enabled by default]
+ #define a5   -.18628806
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:28:0: note: this is the location of the previous definition
+ #define a5  -.18628806e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:31:0: warning: "a6" redefined [enabled by default]
+ #define a6    .27886087
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:29:0: note: this is the location of the previous definition
+ #define a6  .27886087e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:32:0: warning: "a7" redefined [enabled by default]
+ #define a7  -1.13520398
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:30:0: note: this is the location of the previous definition
+ #define a7  -1.13520398e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:33:0: warning: "a8" redefined [enabled by default]
+ #define a8   1.48851587
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:31:0: note: this is the location of the previous definition
+ #define a8 1.48851587e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:34:0: warning: "a9" redefined [enabled by default]
+ #define a9   -.82215223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:32:0: note: this is the location of the previous definition
+ #define a9 -.82215223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:35:0: warning: "a10" redefined [enabled by default]
+ #define a10   .17087277
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c:10:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:33:0: note: this is the location of the previous definition
+ #define a10 .17087277e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:25:0: warning: "TWOPI" redefined [enabled by default]
+ #define TWOPI 8.*atan(1.)
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:23:0: note: this is the location of the previous definition
+ #define TWOPI (8.*atan(1.))
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:26:0: warning: "a1" redefined [enabled by default]
+ #define a1  -1.26551223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:24:0: note: this is the location of the previous definition
+ #define a1  -1.26551223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:27:0: warning: "a2" redefined [enabled by default]
+ #define a2   1.00002368
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:25:0: note: this is the location of the previous definition
+ #define a2  1.00002368e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:28:0: warning: "a3" redefined [enabled by default]
+ #define a3    .37409196
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:26:0: note: this is the location of the previous definition
+ #define a3  .37409196e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:29:0: warning: "a4" redefined [enabled by default]
+ #define a4    .09678418
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:27:0: note: this is the location of the previous definition
+ #define a4  .09678418e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:30:0: warning: "a5" redefined [enabled by default]
+ #define a5   -.18628806
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:28:0: note: this is the location of the previous definition
+ #define a5  -.18628806e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:31:0: warning: "a6" redefined [enabled by default]
+ #define a6    .27886087
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:29:0: note: this is the location of the previous definition
+ #define a6  .27886087e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:32:0: warning: "a7" redefined [enabled by default]
+ #define a7  -1.13520398
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:30:0: note: this is the location of the previous definition
+ #define a7  -1.13520398e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:33:0: warning: "a8" redefined [enabled by default]
+ #define a8   1.48851587
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:31:0: note: this is the location of the previous definition
+ #define a8 1.48851587e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:34:0: warning: "a9" redefined [enabled by default]
+ #define a9   -.82215223
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:32:0: note: this is the location of the previous definition
+ #define a9 -.82215223e0
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:24:0,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.h:35:0: warning: "a10" redefined [enabled by default]
+ #define a10   .17087277
+ ^
+In file included from /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.h:15:0,
+                 from /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.h:23,
+                 from ei_modelA.cpp:11:
+/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.h:33:0: note: this is the location of the previous definition
+ #define a10 .17087277e0
+ ^
+gcc -std=gnu11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave   -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/dcomplex_libc.c -o dcomplex_libc.o
+gcc -std=gnu11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave   -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/special_functions_libc.c -o special_functions_libc.o
+gcc -std=gnu11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave   -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/prob_dist_libc.c -oprob_dist_libc.o
+gcc -std=gnu11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave   -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  /home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models/freq_cv_libc.c -o freq_cv_libc.o
+gcc -std=gnu11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave   -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  /home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/asn_meanfield_libc.c -o asn_meanfield_libc.o
+g++ -std=gnu++11 -c -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave  -I/usr/include/mpi  -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g  -O  -I/home/maurizio/Dropbox/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries -I/home/maurizio/Dropbox/Ongoing.Projects/c_libraries/models  ei_modelA.cpp -o ei_modelA.o
+g++ -std=gnu++11 -I/usr/include/octave-4.2.2/octave/.. -I/usr/include/octave-4.2.2/octave  -I/usr/include/mpi  -pthread -fopenmp -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -g -shared -Wl,-Bsymbolic  -O -o ei_modelA.oct  dcomplex_libc.o special_functions_libc.o prob_dist_libc.o freq_cv_libc.o asn_meanfield_libc.o ei_modelA.o   -lm -lgsl -lgslcblas -L/usr/lib/x86_64-linux-gnu/octave/4.2.2 -L/usr/lib/x86_64-linux-gnu -loctinterp -loctave -Wl,-Bsymbolic-functions -Wl,-z,relro
+>>
+>> dy = ei_modelA_sys_rhs()
+error: ei_modelA_sys_rhs: /home/maurizio/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/octave/ei_modelA.oct: failed to load: /home/maurizio/Ongoing.Projects/DePitta.PNAS/Software/Stability.Analysis/octave/ei_modelA.oct: undefined symbol: _Z13rhs_ei_modelAPdddddddddiddddddddddd
+error: called from
+    ei_modelA_sys_rhs at line 22 column 8
+>>
